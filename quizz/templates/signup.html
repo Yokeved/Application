@@ -1,0 +1,57 @@
+{% extends 'listings/base.html' %}
+  {% block content %}
+      <div class="container text-center">
+   <div class="row container-items-center">
+      <div class="col-4"></div>
+<div class="col-4">
+
+
+        <h2><br> S'inscrire</h2>
+<!--   on va afficher les messages maintenat test des id existant et tu verra -->
+<!--   c la boucle de message et va  -->
+  {% for message in messages %}
+<h5>{{ message }} </h5>
+{% endfor %}
+          <br>
+<!-- on met le formulaiere en post  -->
+          <form method="post" class="row g-3">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" name="name" id="floatingInput" placeholder="name" required>
+                <label for="floatingInput">Nom d'utilisateur</label>
+            </div>
+             <div class="form-floating mb-3">
+                  <input type="email" class="form-control" name="email" id="floatingInput" placeholder="name@example.com" required>
+                    <label for="floatingInput">Adresse mail</label>
+                  </div>
+            <div class="form-floating mb-3">
+                <input type="password" name="password" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                   <label for="floatingInput">Mot de passe</label>
+             </div>
+             <div class="form-floating mb-3">
+                <input type="password" name="password2" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                   <label for="floatingInput">Confirmer mot de passe</label>
+             </div>
+            <div class="col-12">
+               <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                     J'accepte les termes et les conditions
+                    </label>
+               </div>
+           </div>
+          <div class="col-12">
+          {% csrf_token %}
+            <button class="btn btn-primary" type="submit">Valider</button>
+          </div>
+          <br>
+          <br>
+            <p>Vous avez deja un compte ?
+<a class="btn btn-link" href="signin" role="button">Connectez vous</a></p>
+       </form>
+          </div>
+          <div class="col-4"></div>
+        </div>
+      </div>
+    </div>
+    <br>
+      {% endblock %}
