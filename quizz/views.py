@@ -187,10 +187,10 @@ def connection(request):
 
 def resultat(request):
   partie = Partie.objects.filter(user=request.user)[0]
-  points 
-    return render(request, 'resultat.html')
+  points = partie.points
+  return render(request, 'resultat.html')
 
-    """
+  """
     j'ai mi la parti d'ailleur qui est forcement cree donc il y a pas besoin de verifiee
   partie est un dictionnaire
   en 2 mot un dict c
