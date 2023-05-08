@@ -6,14 +6,11 @@
 <div class="col-4">
 
 
-        <h2><br> S'inscrire</h2>
-<!--   on va afficher les messages maintenat test des id existant et tu verra -->
-<!--   c la boucle de message et va  -->
-  {% for message in messages %}
-<h5>{{ message }} </h5>
+        <h2><br> S'inscrire</h2><br>
+{% for message in messages %}
+<div class="alert alert-danger">{{ message }}</div>
 {% endfor %}
           <br>
-<!-- on met le formulaiere en post  -->
           <form method="post" class="row g-3">
             <div class="form-floating mb-3">
               <input type="text" class="form-control" name="name" id="floatingInput" placeholder="name" required>

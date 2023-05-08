@@ -5,60 +5,48 @@ from django.contrib import messages
 from django.contrib.auth import get_user_model
 # ici on import le model Partie comme ca on puisse l'utiliser dans la page
 from quizz.models import Partie
-
+from django.http import HttpResponse
+import json
+import random
 
 # creation d'une page
 def index(request):
     return render(request, 'index.html')
 
 
-from django.http import HttpResponse
-
-
 def start_quizz(request):
     if str(request.user) == 'AnonymousUser':
         return redirect('signin')
-    qest_ans = [{
-        'question':
-        'A journalist\'s source who wants to remain anonymous may speak "on" this, or even "on deep" this',
-        'reponse': 'background'
-    }, {
-        'question': 'Hairy Himalayans herded here',
-        'reponse': 'yaks'
-    }, {
-        'question':
-        'Born in Kentucky Feb.12, 1809, Abe Lincoln lived from age 7 to 21 in this state before the move to Illinois'
-    }, {
-        'reponse': 'Indiana'
-    }]
-    # on recupere la question a afficher
-    question = qest_ans[0]['question']
-    # meme chose pour reponse
-    reponse = qest_ans[0]['reponse']
-    # list des reponses
-    list_reponses = ['yaks', 'background', 'Indiana']
-    # la tu appel la parti
+    
+    with open ("quizz/data.json") as f:
+        data = json.load(f)
+    nbrandom = random.randint(0,len(data)-1)
+    # question et reponse
+    question_dict = data[nbrandom]
+    question_text = question_dict["question_text"]
+    options = question_dict["options"]
+    answer = question_dict["answer"]
 
     data = {
-        'question': question,
-        'reponse': reponse,
-        'list_reponses': list_reponses,
-        'numquestion': '1'
+        'question_text': question_text,
+        'options': options,
+        'answer': answer,
+        'numquestion': 1
     }
+   
 
     if request.method == "POST":
-        # la tu recupere la reponse
         reponse_send = request.POST.get('radio_button')
-        # la tu appel la db en creant ou cherchant
-        # si elle existe deja tu met a 0
+        right_reponse = request.POST.get('right_reponse')
+
+        
         partie, created = Partie.objects.get_or_create(user=request.user)
         if not created:
             partie.numquestion = 1
             partie.points = 0
-        # ici tu implemant (Hazak)
         print(partie)
-        if reponse_send == reponse:
-            partie.points = 1
+        if reponse_send == right_reponse:
+            partie.points = partie.points + 1
         else:
             partie.points = 0
         partie.numquestion = 2
@@ -73,50 +61,40 @@ def start_quizz(request):
 
 
 def quizz(request):
-    # ici on change pour ajouter un point si la reponse est juste
-    qest_ans = [{
-        'question':
-        'A journalist\'s source who wants to remain anonymous may speak "on" this, or even "on deep" this',
-        'reponse': 'background'
-    }, {
-        'question': 'Hairy Himalayans herded here',
-        'reponse': 'yaks'
-    }, {
-        'question':
-        'Born in Kentucky Feb.12, 1809, Abe Lincoln lived from age 7 to 21 in this state before the move to Illinois'
-    }, {
-        'reponse': 'Indiana'
-    }]
-    # on recupere la question a afficher
-    question = qest_ans[0]['question']
-    # meme chose pour reponse
-    reponse = qest_ans[0]['reponse']
-    # list des reponses
-    list_reponses = ['yaks', 'background', 'Indiana']
+    # ouverture du fichier
+    with open ("quizz/data.json") as f:
+        data = json.load(f)
+    nbrandom = random.randint(0,len(data)-1)
+    # question et reponse
+    question_dict = data[nbrandom]
+    question_text = question_dict["question_text"]
+    options = question_dict["options"]
+    answer = question_dict["answer"]
+
     partie = Partie.objects.filter(user=request.user)[0]
 
     numquestion = partie.numquestion
 
     data = {
-        'question': question,
-        'reponse': reponse,
-        'list_reponses': list_reponses,
+        'question_text': question_text,
+        'options': options,
+        'answer': answer,
         'numquestion': numquestion
     }
-    # on l'envoie dans la page html
     if request.method == "POST":
         reponse_send = request.POST.get('radio_button')
+        right_reponse = request.POST.get('right_reponse')
 
-        if reponse_send == reponse:
+        if reponse_send == right_reponse:
             partie.points = partie.points + 1
 
         partie.numquestion = partie.numquestion + 1
         partie.save()
         if numquestion == 10:
             return redirect('resultat')
-        # faire une fonction qui redirige vert une page resulat avec le score si fin de 10eme quesions
-        return redirect('quizz')
         print(reponse_send)
+        return redirect('quizz')
+
     return render(request, 'quizz.html', data)
 
 
@@ -155,6 +133,7 @@ def signup(request):
         if UserModel.objects.filter(username=username).exists():
             messages.error(request, 'Ce nom ou adresse email existe déjà ')
         # on verifi que le user n'exist pas
+            return redirect('signup')
         else:
             # on cree une instance du new  utilisateur
             if password == password2:
@@ -165,11 +144,6 @@ def signup(request):
                 messages.error(request,
                                'Les mots de passe doivent être identiques')
                 return redirect('signup')
-            # on enregistre dans la DB
-        # user.save()
-        # on redirige a login
-
-        # va dans signup page
     else:
         return render(request, 'signup.html')
 
@@ -186,11 +160,15 @@ def connection(request):
 
 
 def resultat(request):
-  partie = Partie.objects.filter(user=request.user)[0]
-  points = partie.points
-  return render(request, 'resultat.html')
+    partie = Partie.objects.filter(user=request.user)[0]
+    points = partie.points
+    data = {
+        'points': points,
+    }
+    return render(request, 'resultat.html', data)
 
-  """
+
+"""
     j'ai mi la parti d'ailleur qui est forcement cree donc il y a pas besoin de verifiee
   partie est un dictionnaire
   en 2 mot un dict c

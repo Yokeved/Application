@@ -1,0 +1,908 @@
+
+[    
+    {
+        "question_text": "Quel est le plus grand pays d'Afrique ?",
+        "options": [
+            "Algérie",
+            "Nigéria",
+            "Egypte",
+            "Soudan"
+        ],
+        "answer": "Algérie"
+    }
+,
+    {
+        "question_text": "Quel est le plus grand océan du monde ?",
+        "options": [
+            "Océan Pacifique",
+            "Océan Atlantique",
+            "Océan Indien",
+            "Océan Arctique"
+        ],
+        "answer": "Océan Pacifique"
+    }
+,
+    {
+        "question_text": "Quel est le plus grand pays du monde en termes de superficie ?",
+        "options": [
+            "Russie",
+            "Canada",
+            "Chine",
+            "Etats-Unis"
+        ],
+        "answer": "Russie"
+    }
+,
+    {
+        "question_text": "Quelle est la capitale de l'Espagne ?",
+        "options": [
+            "Madrid",
+            "Barcelone",
+            "Valence",
+            "Séville"
+        ],
+        "answer": "Madrid"
+    }
+,
+    {
+        "question_text": "Quelle est la plus haute montagne du monde ?",
+        "options": [
+            "Mont Everest",
+            "K2",
+            "Makalu",
+            "Cho Oyu"
+        ],
+        "answer": "Mont Everest"
+    }
+,
+    {
+        "question_text": "Dans quel pays se trouve la tour Eiffel ?",
+        "options": [
+            "France",
+            "Italie",
+            "Espagne",
+            "Allemagne"
+        ],
+        "answer": "France"
+    }
+,
+    {
+        "question_text": "Quelle est la langue la plus parlée dans le monde ?",
+        "options": [
+            "Anglais",
+            "Mandarin",
+            "Espagnol",
+            "Français"
+        ],
+        "answer": "Mandarin"
+    }
+,
+    {
+        "question_text": "Quel est le plus grand désert du monde ?",
+        "options": [
+            "Désert du Sahara",
+            "Désert du Gobi",
+            "Désert d'Arabie",
+            "Désert de Mojave"
+        ],
+        "answer": "Désert du Sahara"
+    }
+,
+    {
+        "question_text": "Qui a écrit la pièce de théâtre 'Roméo et Juliette' ?",
+        "options": [
+            "William Shakespeare",
+            "Tennessee Williams",
+            "Arthur Miller",
+            "Eugene O'Neill"
+        ],
+        "answer": "William Shakespeare"
+    }
+,
+    {
+        "question_text": "Dans quel pays se trouve le Taj Mahal ?",
+        "options": [
+            "Inde",
+            "Pakistan",
+            "Népal",
+            "Bangladesh"
+        ],
+        "answer": "Inde"
+    }
+,
+    {
+        "question_text": "Quel est le plus grand lac du monde en termes de volume d'eau ?",
+        "options": [
+            "lac Supérieur",
+            "lac Baïkal",
+            "lac Victoria",
+            "lac Huron"
+        ],
+        "answer": "lac Baïkal"
+    }
+,
+    {
+        "question_text": "Dans quel pays se trouve la ville de Marrakech ?",
+        "options": [
+            "Maroc",
+            "Algérie",
+            "Tunisie",
+            "Libye"
+        ],
+        "answer": "Maroc"
+    }
+,
+    {
+        "question_text": "Quel est le plus grand pays d'Asie en termes de superficie ?",
+        "options": [
+            "Russie",
+            "Chine",
+            "Inde",
+            "Kazakhstan"
+        ],
+        "answer": "Russie"
+    }
+,
+    {
+        "question_text": "Dans quel pays se trouve la ville de Rio de Janeiro ?",
+        "options": [
+            "Brésil",
+            "Argentine",
+            "Chili",
+            "Pérou"
+        ],
+        "answer": "Brésil"
+    }
+,
+    {
+        "question_text": "Quel est le plus grand animal terrestre du monde ?",
+        "options": [
+            "Éléphant",
+            "Rhinocéros",
+            "Hippopotame",
+            "Girafe"
+        ],
+        "answer": "Éléphant"
+    }
+,
+    {
+        "question_text": "Quel est le plus petit pays du monde ?",
+        "options": [
+            "Vatican",
+            "Monaco",
+            "Nauru",
+            "Tuvalu"
+        ],
+        "answer": "Vatican"
+    }
+,
+    {
+        "question_text": "Dans quelle ville se trouve la célèbre sculpture 'La Pietà' de Michel-Ange ?",
+        "options": [
+            "Rome",
+            "Florence",
+            "Venise",
+            "Milan"
+        ],
+        "answer": "Rome"
+    }
+,
+    {
+        "question_text": "Dans quel pays se trouve la ville de Riga ?",
+        "options": [
+            "Lettonie",
+            "Estonie",
+            "Lituanie",
+            "Pologne"
+        ],
+        "answer": "Lettonie"
+    }
+,
+    {
+        "question_text": "Quel est le plus grand barrage du monde en termes de production d'électricité ?",
+        "options": [
+            "Barrage des Trois-Gorges",
+            "Barrage d'Itaipu",
+            "Barrage d'Assouan",
+            "Barrage de Grand Coulee"
+        ],
+        "answer": "Barrage des Trois-Gorges"
+    }
+,
+    {
+        "question_text": "Dans quelle ville se trouve le pont du Golden Gate ?",
+        "options": [
+            "San Francisco",
+            "Los Angeles",
+            "Seattle",
+            "Portland"
+        ],
+        "answer": "San Francisco"
+    }
+,
+    {
+        "question_text": "Quel est le plus long fleuve d'Amérique du Sud ?",
+        "options": [
+            "Amazone",
+            "Parana",
+            "Orénoque",
+            "Magdalena"
+        ],
+        "answer": "Amazone"
+    }
+,
+    {
+        "question_text": "Dans quel pays se trouve la ville de Copenhague ?",
+        "options": [
+            "Danemark",
+            "Norvège",
+            "Suède",
+            "Finlande"
+        ],
+        "answer": "Danemark"
+    }
+,
+    {
+        "question_text": "Quel est le plus grand parc national des États-Unis ?",
+        "options": [
+            "Parc national de Yellowstone",
+            "Parc national de Yosemite",
+            "Parc national de Grand Teton",
+            "Parc national de Glacier"
+        ],
+        "answer": "Parc national de Yellowstone"
+    }
+,
+    {
+        "question_text": "Dans quelle ville se trouve la cathédrale Saint-Basile-le-Bienheureux ?",
+        "options": [
+            "Moscou",
+            "Saint-Pétersbourg",
+            "Kazan",
+            "Vladivostok"
+        ],
+        "answer": "Moscou"
+    }
+,
+    {
+        "question_text": "Quel est le plus grand pays du monde en termes de population ?",
+        "options": [
+            "Chine",
+            "Inde",
+            "États-Unis",
+            "Russie"
+        ],
+        "answer": "Chine"
+    }
+,
+    {
+        "question_text": "Dans quel pays se trouve la ville de Ljubljana ?",
+        "options": [
+            "Slovénie",
+            "Croatie",
+            "Serbie",
+            "Bosnie-Herzégovine"
+        ],
+        "answer": "Slovénie"
+    }
+,
+    {
+        "question_text": "Quel pays a signé un pacte de non-agression avec l'Allemagne nazie en 1939 ?",
+        "options": [
+            "Union soviétique",
+            "France",
+            "Royaume-Uni",
+            "États-Unis"
+        ],
+        "answer": "Union soviétique"
+    }
+,
+    {
+        "question_text": "Quelle bataille a été le tournant de la guerre sur le front de l'est, avec la défaite allemande devant les forces soviétiques ?",
+        "options": [
+            "Bataille de Stalingrad",
+            "Bataille de Moscou",
+            "Bataille de Koursk",
+            "Bataille de Karkhov"
+        ],
+        "answer": "Bataille de Stalingrad"
+    }
+,
+    {
+        "question_text": "Quel était le nom de code du débarquement allié en Normandie le 6 juin 1944 ?",
+        "options": [
+            "Opération Overlord",
+            "Opération Torch",
+            "Opération Neptune",
+            "Opération Barbarossa"
+        ],
+        "answer": "Opération Overlord"
+    }
+,
+    {
+        "question_text": "Quel dirigeant italien a été exécuté par des partisans italiens en 1945 ?",
+        "options": [
+            "Benito Mussolini",
+            "Giuseppe Garibaldi",
+            "Victor-Emmanuel III",
+            "Guglielmo Marconi"
+        ],
+        "answer": "Benito Mussolini"
+    }
+,
+    {
+        "question_text": "Quel était le nom de code de l'opération allemande visant à envahir l'Union soviétique en 1941 ?",
+        "options": [
+            "Opération Barbarossa",
+            "Opération Weserübung",
+            "Opération Bagration",
+            "Opération Uranus"
+        ],
+        "answer": "Opération Barbarossa"
+    }
+,
+    {
+        "question_text": "Quelle ville japonaise a été la cible de la première bombe atomique en août 1945 ?",
+        "options": [
+            "Hiroshima",
+            "Nagasaki",
+            "Tokyo",
+            "Osaka"
+        ],
+        "answer": "Hiroshima"
+    }
+,
+    {
+        "question_text": "Quelle opération alliée a vu la capture du port stratégique de Anzio en Italie en 1944 ?",
+        "options": [
+            "Opération Shingle",
+            "Opération Market Garden",
+            "Opération Dragoon",
+            "Opération Husky"
+        ],
+        "answer": "Opération Shingle"
+    }
+,
+    {
+        "question_text": "Dans quel pays européen se trouve la ville de Monte Cassino, théâtre d'une importante bataille en 1944 ?",
+        "options": [
+            "Italie",
+            "Allemagne",
+            "France",
+            "Royaume-Uni"
+        ],
+        "answer": "Italie"
+    }
+,
+    {
+        "question_text": "Quelle bataille a vu la dernière grande offensive allemande sur le front de l'ouest, en décembre 1944 ?",
+        "options": [
+            "Bataille des Ardennes",
+            "Bataille de Normandie",
+            "Bataille de Koursk",
+            "Bataille de Berlin"
+        ],
+        "answer": "Bataille des Ardennes"
+    }
+,
+    {
+        "question_text": "Quel était le nom de code de l'opération américaine visant à capturer Guadalcanal en 1942, première bataille de la campagne du Pacifique ?",
+        "options": [
+            "Opération Watchtower",
+            "Opération Torch",
+            "Opération Dragoon",
+            "Opération Market Garden"
+        ],
+        "answer": "Opération Watchtower"
+    }
+,
+    {
+        "question_text": "Dans quelle ville allemande a eu lieu la conférence de 1942 où les hauts responsables nazis ont décidé de l'Holocauste ?",
+        "options": [
+            "Wannsee",
+            "Berlin",
+            "Munich",
+            "Nuremberg"
+        ],
+        "answer": "Wannsee"
+    }
+,
+    {
+        "question_text": "Quel général allemand a mené la défense de Stalingrad en 1942-1943 ?",
+        "options": [
+            "Friedrich Paulus",
+            "Erwin Rommel",
+            "Heinz Guderian",
+            "Gerd von Rundstedt"
+        ],
+        "answer": "Friedrich Paulus"
+    }
+,
+    {
+        "question_text": "Quel dirigeant polonais en exil a appelé la communauté internationale à la création d'une armée polonaise en 1940 ?",
+        "options": [
+            "Władysław Sikorski",
+            "Józef Piłsudski",
+            "Ignacy Paderewski",
+            "Stanisław Mikołajczyk"
+        ],
+        "answer": "Władysław Sikorski"
+    }
+,
+    {
+        "question_text": "Quel était le nom de code du débarquement allié en Provence, dans le sud de la France, en août 1944 ?",
+        "options": [
+            "Opération Dragoon",
+            "Opération Market Garden",
+            "Opération Overlord",
+            "Opération Shingle"
+        ],
+        "answer": "Opération Dragoon"
+    }
+,
+    {
+        "question_text": "Dans quelle ville allemande a eu lieu le procès des criminels de guerre nazis en 1945-1946 ?",
+        "options": [
+            "Nuremberg",
+            "Berlin",
+            "Munich",
+            "Hambourg"
+        ],
+        "answer": "Nuremberg"
+    }
+,
+    {
+        "question_text": "Quel était le nom de code de l'opération britannique visant à capturer la ville de Tobrouk en Libye en 1942 ?",
+        "options": [
+            "Opération Crusader",
+            "Opération Torch",
+            "Opération Overlord",
+            "Opération Battleaxe"
+        ],
+        "answer": "Opération Crusader"
+    }
+,
+    {
+        "question_text": "Quelle est la loi physique qui décrit la force entre deux masses attractives ?",
+        "options": [
+            "Loi de Coulomb",
+            "Loi de Newton",
+            "Loi de Faraday",
+            "Loi de Planck"
+        ],
+        "answer": "Loi de Newton"
+    }
+,
+    {
+        "question_text": "Quel est le nom de l'effet quantique qui décrit la superposition d'états quantiques ?",
+        "options": [
+            "Effet Hall",
+            "Effet Compton",
+            "Effet Zeeman",
+            "Effet de la superposition"
+        ],
+        "answer": "Effet de la superposition"
+    }
+,
+    {
+        "question_text": "Quel est le nom de la théorie qui décrit l'interaction électromagnétique entre les particules subatomiques ?",
+        "options": [
+            "Théorie de la relativité",
+            "Théorie de l'électrodynamique quantique",
+            "Théorie des cordes",
+            "Théorie de la gravitation quantique"
+        ],
+        "answer": "Théorie de l'électrodynamique quantique"
+    }
+,
+    {
+        "question_text": "Quelle est la formule de la masse relativiste ?",
+        "options": [
+            "m = E/c^2",
+            "m = p/v",
+            "m = F/a",
+            "m = rho * V"
+        ],
+        "answer": "m = E/c^2"
+    }
+,
+    {
+        "question_text": "Quelle est l'unité de mesure de la force en physique ?",
+        "options": [
+            "Joule",
+            "Watt",
+            "Volt",
+            "Newton"
+        ],
+        "answer": "Newton"
+    }
+,
+    {
+        "question_text": "Quel est le nom de l'effet quantique qui décrit la disparition de la résistance électrique d'un matériau à très basse température ?",
+        "options": [
+            "Effet de Meissner",
+            "Effet Joule",
+            "Effet Peltier",
+            "Effet Zeeman"
+        ],
+        "answer": "Effet de Meissner"
+    }
+,
+    {
+        "question_text": "Quelle est la loi physique qui décrit la conservation de l'énergie dans un système isolé ?",
+        "options": [
+            "Loi de Coulomb",
+            "Loi de Newton",
+            "Loi de Lenz",
+            "Première loi de la thermodynamique"
+        ],
+        "answer": "Première loi de la thermodynamique"
+    }
+,
+    {
+        "question_text": "Quel est le nom de la théorie qui décrit l'interaction forte entre les quarks dans le noyau atomique ?",
+        "options": [
+            "Théorie de la relativité",
+            "Théorie de l'électrodynamique quantique",
+            "Théorie des cordes",
+            "Théorie de la chromodynamique quantique"
+        ],
+        "answer": "Théorie de la chromodynamique quantique"
+    }
+,
+    {
+        "question_text": "Qu'est-ce qu'un système d'exploitation ?",
+        "options": [
+            "Un logiciel qui permet de contrôler les ressources d'un ordinateur",
+            "Un logiciel qui permet de créer des documents",
+            "Un logiciel qui permet de naviguer sur internet",
+            "Un logiciel qui permet de jouer à des jeux vidéo"
+        ],
+        "answer": "Un logiciel qui permet de contrôler les ressources d'un ordinateur"
+    }
+,
+    {
+        "question_text": "Qu'est-ce qu'un langage de programmation ?",
+        "options": [
+            "Un ensemble de règles pour écrire des documents",
+            "Un logiciel qui permet de naviguer sur internet",
+            "Un ensemble de mots-clés et de syntaxe pour écrire des programmes",
+            "Un logiciel qui permet de créer des images et des vidéos"
+        ],
+        "answer": "Un ensemble de mots-clés et de syntaxe pour écrire des programmes"
+    }
+,
+    {
+        "question_text": "Qu'est-ce qu'un algorithme ?",
+        "options": [
+            "Une formule mathématique complexe",
+            "Un ensemble de règles pour jouer à un jeu vidéo",
+            "Un ensemble d'instructions pour résoudre un problème",
+            "Un logiciel de traitement de texte"
+        ],
+        "answer": "Un ensemble d'instructions pour résoudre un problème"
+    }
+,
+    {
+        "question_text": "Qu'est-ce qu'un réseau informatique ?",
+        "options": [
+            "Un groupe de personnes qui travaillent ensemble sur des ordinateurs",
+            "Un ensemble de câbles et de composants électroniques",
+            "Un ensemble d'ordinateurs connectés entre eux pour partager des ressources",
+            "Un logiciel qui permet de dessiner des schémas"
+        ],
+        "answer": "Un ensemble d'ordinateurs connectés entre eux pour partager des ressources"
+    }
+,
+    {
+        "question_text": "Qu'est-ce qu'un virus informatique ?",
+        "options": [
+            "Un programme malveillant qui endommage un ordinateur",
+            "Un logiciel qui permet de stocker des fichiers",
+            "Un programme qui permet de naviguer sur internet",
+            "Un logiciel qui permet de créer des présentations"
+        ],
+        "answer": "Un programme malveillant qui endommage un ordinateur"
+    }
+,
+    {
+        "question_text": "Qu'est-ce qu'un pare-feu ?",
+        "options": [
+            "Un logiciel qui permet de naviguer sur internet en toute sécurité",
+            "Un programme qui permet de stocker des fichiers",
+            "Un programme qui bloque les accès non autorisés à un réseau",
+            "Un logiciel qui permet de dessiner des images"
+        ],
+        "answer": "Un programme qui bloque les accès non autorisés à un réseau"
+    }
+,
+    {
+        "question_text": "Qu'est-ce qu'un navigateur web ?",
+        "options": [
+            "Un logiciel qui permet de créer des pages web",
+            "Un programme qui permet de stocker des fichiers",
+            "Un logiciel qui permet de naviguer sur internet",
+            "Un programme qui permet de dessiner des images"
+        ],
+        "answer": "Un logiciel qui permet de naviguer sur internet"
+    }
+,
+
+        {
+        "question_text": "Qu'est-ce que la physique?",
+        "options": [
+            "L'étude des phénomènes liés à l'électricité et au magnétisme",
+            "L'étude des phénomènes liés à la lumière et au son",
+            "L'étude des phénomènes naturels du monde physique",
+            "L'étude des phénomènes liés à la chimie"
+        ],
+        "answer": "L'étude des phénomènes naturels du monde physique"
+        }
+,
+        {
+        "question_text": "Qu'est-ce que la cinématique?",
+        "options": [
+            "L'étude des forces agissant sur les corps en mouvement",
+            "L'étude des mouvements des corps sans se préoccuper de leurs causes",
+            "L'étude des mouvements des corps en relation avec les forces qui les causent",
+            "L'étude des forces électromagnétiques"
+        ],
+        "answer": "L'étude des mouvements des corps sans se préoccuper de leurs causes"
+        }
+,
+        {
+        "question_text": "Qu'est-ce que la dynamique?",
+        "options": [
+            "L'étude des forces agissant sur les corps en mouvement",
+            "L'étude des mouvements des corps sans se préoccuper de leurs causes",
+            "L'étude des mouvements des corps en relation avec les forces qui les causent",
+            "L'étude des forces électromagnétiques"
+        ],
+        "answer": "L'étude des mouvements des corps en relation avec les forces qui les causent"
+        }
+,
+        {
+        "question_text": "Qu'est-ce que la thermodynamique?",
+        "options": [
+            "L'étude de la chaleur et de ses effets sur les corps",
+            "L'étude des propriétés de l'électricité",
+            "L'étude des mouvements des corps en relation avec les forces qui les causent",
+            "L'étude des propriétés des ondes électromagnétiques"
+        ],
+        "answer": "L'étude de la chaleur et de ses effets sur les corps"
+        }
+,
+        {
+        "question_text": "Qu'est-ce que la relativité restreinte?",
+        "options": [
+            "Une théorie de la gravité",
+            "Une théorie de l'électricité",
+            "Une théorie de l'optique",
+            "Une théorie de la physique qui décrit le comportement des objets à grande vitesse"
+        ],
+        "answer": "Une théorie de la physique qui décrit le comportement des objets à grande vitesse"
+        }
+,
+        {
+        "question_text": "Qu'est-ce que la relativité générale?",
+        "options": [
+            "Une théorie de la gravité",
+            "Une théorie de l'électricité",
+            "Une théorie de l'optique",
+            "Une théorie de la physique qui décrit le comportement des objets à grande vitesse"
+        ],
+        "answer": "Une théorie de la gravité"
+        }
+
+    ,
+    {
+        "question_text": "Qu'est-ce que la science?",
+        "options": [
+        "Une méthode pour prouver des croyances",
+        "Une approche pour comprendre le monde naturel",
+        "Une religion",
+        "Une méthode pour manipuler les forces de la nature"
+        ],
+        "answer": "Une approche pour comprendre le monde naturel"
+    }
+    ,
+    {
+        "question_text": "Qu'est-ce que la méthode scientifique?",
+        "options": [
+        "Une méthode pour trouver des preuves pour soutenir une croyance",
+        "Une méthode pour construire des théories sans preuves",
+        "Une méthode pour prouver que les croyances sont fausses",
+        "Une méthode pour construire des théories sur la base d'observations et d'expériences"
+        ],
+        "answer": "Une méthode pour construire des théories sur la base d'observations et d'expériences"
+    }
+    ,
+    {
+        "question_text": "Qu'est-ce que la biologie?",
+        "options": [
+        "L'étude de la planète Terre",
+        "L'étude de l'histoire de l'humanité",
+        "L'étude des êtres vivants",
+        "L'étude des minéraux et des roches"
+        ],
+        "answer": "L'étude des êtres vivants"
+    }
+    ,
+    {
+        "question_text": "Qu'est-ce que la physique?",
+        "options": [
+        "L'étude des phénomènes liés à l'électricité et au magnétisme",
+        "L'étude des phénomènes liés à la lumière et au son",
+        "L'étude des phénomènes naturels du monde physique",
+        "L'étude des phénomènes liés à la chimie"
+        ],
+        "answer": "L'étude des phénomènes naturels du monde physique"
+    }
+    ,
+    {
+        "question_text": "Qu'est-ce que la chimie?",
+        "options": [
+        "L'étude des phénomènes liés à l'électricité et au magnétisme",
+        "L'étude des phénomènes liés à la lumière et au son",
+        "L'étude des phénomènes liés à la biologie",
+        "L'étude des propriétés des substances et des réactions entre elles"
+        ],
+        "answer": "L'étude des propriétés des substances et des réactions entre elles"
+    }
+    ,
+    {
+        "question_text": "Qu'est-ce que la géologie?",
+        "options": [
+        "L'étude de la planète Terre",
+        "L'étude de l'histoire de l'humanité",
+        "L'étude des êtres vivants",
+        "L'étude des minéraux et des roches"
+        ],
+        "answer": "L'étude des minéraux et des roches"
+    }
+    ,
+
+            {
+            "question_text": "Qu'est-ce que la science?",
+            "options": [
+                "Une méthode pour prouver des croyances",
+                "Une approche pour comprendre le monde naturel",
+                "Une religion",
+                "Une méthode pour manipuler les forces de la nature"
+            ],
+            "answer": "Une approche pour comprendre le monde naturel"
+            }
+     ,       
+            {
+            "question_text": "Qu'est-ce que la méthode scientifique?",
+            "options": [
+                "Une méthode pour trouver des preuves pour soutenir une croyance",
+                "Une méthode pour construire des théories sans preuves",
+                "Une méthode pour prouver que les croyances sont fausses",
+                "Une méthode pour construire des théories sur la base d'observations et d'expériences"
+            ],
+            "answer": "Une méthode pour construire des théories sur la base d'observations et d'expériences"
+            }
+    ,        
+            {
+            "question_text": "Qu'est-ce que la biologie?",
+            "options": [
+                "L'étude de la planète Terre",
+                "L'étude de l'histoire de l'humanité",
+                "L'étude des êtres vivants",
+                "L'étude des minéraux et des roches"
+            ],
+            "answer": "L'étude des êtres vivants"
+            }
+   ,         
+            {
+            "question_text": "Qu'est-ce que la physique?",
+            "options": [
+                "L'étude des phénomènes liés à l'électricité et au magnétisme",
+                "L'étude des phénomènes liés à la lumière et au son",
+                "L'étude des phénomènes naturels du monde physique",
+                "L'étude des phénomènes liés à la chimie"
+            ],
+            "answer": "L'étude des phénomènes naturels du monde physique"
+            }
+  ,          
+            {
+            "question_text": "Qu'est-ce que la chimie?",
+            "options": [
+                "L'étude des phénomènes liés à l'électricité et au magnétisme",
+                "L'étude des phénomènes liés à la lumière et au son",
+                "L'étude des phénomènes liés à la biologie",
+                "L'étude des propriétés des substances et des réactions entre elles"
+            ],
+            "answer": "L'étude des propriétés des substances et des réactions entre elles"
+            }
+ ,           
+            {
+            "question_text": "Qu'est-ce que la géologie?",
+            "options": [
+                "L'étude de la planète Terre",
+                "L'étude de l'histoire de l'humanité",
+                "L'étude des êtres vivants",
+                "L'étude des minéraux et des roches"
+            ],
+            "answer": "L'étude des minéraux et des roches"
+            }
+,
+    {
+        "question_text": "Qu'est-ce que l'intelligence artificielle ?",
+        "options": [
+        "Une forme d'intelligence humaine",
+        "Un système informatique capable de prendre des décisions",
+        "Un ensemble de techniques permettant à une machine de simuler une intelligence humaine",
+        "Un type de robot autonome"
+        ],
+        "answer": "Un ensemble de techniques permettant à une machine de simuler une intelligence humaine"
+    }
+,
+    {
+        "question_text": "Quelles sont les principales applications de l'intelligence artificielle ?",
+        "options": [
+        "La reconnaissance vocale",
+        "La traduction automatique",
+        "La reconnaissance d'images",
+        "La conduite autonome de voitures"
+        ],
+        "answer": "La conduite autonome de voitures"
+    }
+,
+    {
+        "question_text": "Qu'est-ce que le machine learning ?",
+        "options": [
+        "Une technique d'apprentissage automatique",
+        "Une méthode d'analyse de données",
+        "Un algorithme de recherche de données",
+        "Un programme de gestion de base de données"
+        ],
+        "answer": "Une technique d'apprentissage automatique"
+    }
+,
+    {
+        "question_text": "Comment fonctionnent les chatbots ?",
+        "options": [
+        "Ils utilisent des algorithmes de traitement du langage naturel",
+        "Ils sont programmés pour répondre à des questions spécifiques",
+        "Ils fonctionnent comme des robots autonomes",
+        "Ils sont contrôlés par des opérateurs humains en temps réel"
+        ],
+        "answer": "Ils utilisent des algorithmes de traitement du langage naturel"
+    }
+,
+    {
+        "question_text": "Qu'est-ce qu'un algorithme ?",
+        "options": [
+        "Un ensemble de règles logiques",
+        "Un programme informatique",
+        "Une série d'instructions pour résoudre un problème",
+        "Un type de langage de programmation"
+        ],
+        "answer": "Une série d'instructions pour résoudre un problème"
+    }
+    ,
+    {
+        "question_text": "Comment fonctionne la reconnaissance faciale ?",
+        "options": [
+        "Elle utilise des algorithmes d'apprentissage automatique pour identifier des caractéristiques du visage",
+        "Elle compare des images de visages avec une base de données",
+        "Elle mesure des distances entre les yeux et d'autres caractéristiques du visage",
+        "Elle utilise des capteurs pour détecter des mouvements du visage"
+        ],
+        "answer": "Elle utilise des algorithmes d'apprentissage automatique pour identifier des caractéristiques du visage"
+    }
+    ,
+    {
+        "question_text": "Qu'est-ce que la réalité virtuelle ?",
+        "options": [
+        "Une simulation informatique d'un environnement réel ou imaginaire",
+        "Un système de visualisation de données",
+        "Un type de jeu vidéo",
+        "Un outil de communication à distance"
+        ],
+        "answer": "Une simulation informatique d'un environnement réel ou imaginaire"
+    }
+    
+]

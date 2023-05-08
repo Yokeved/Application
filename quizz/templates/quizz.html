@@ -13,7 +13,7 @@
                 <a class="nav-link active" aria-current="page" href="start-quizz">Recommencer la partie</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="step" href="score.html">Score</a>
+                <a class="nav-link active" aria-current="step" href="resultat">Score</a>
               </li>
             </ul>
           </div>
@@ -21,73 +21,38 @@
     </nav>
      <div class="row align-item-center">
         <div class="col-3">
-          <!--
-          <div class="container text-center" >
-          <br><br><br>
-          <h2>Choisissez votre niveau:</h2> <br>
-          <div class="btn-group btn-group-lg" role="group" aria-label="Large button group">
-            <button type="button" class="btn btn-outline-primary">Facile</button>
-            <button type="button" class="btn btn-outline-info">Moyen</button>
-            <button type="button" class="btn btn-outline-secondary">Difficile</button>
-          </div>
-          </div>
-          -->
         </div>
         <div class="col-6">
-          <div align="center"> 
-
-          <h1> <br> Question {{numquestion}}/10</h1>
+          <div style="text-align: center;"> 
+            <h1> <br> Question {{numquestion}}/10</h1>
         </div>
           <br><br>
-          <div>
-<!--            va dans le chat
-            --> 
-         <textarea class="form-control border-dark" type="text" aria-label="readonly input example" readonly> {{ question }}</textarea>
-          </div>
-          <div>
-            <br> <br>
-<!--             la on va faire une boucle pour aficher les reponses -->
-<!--             quans c'est de la logique on fais differament les accolade-->
-            <form method="post">
-<!--               on ajout le token -->
-              {% csrf_token %}
-            {% for answer in list_reponses %}
-<!--              on met tou dans la boucle maintenant on retest stp -->
-                        <input class="form-check-input" type="radio" value="{{ answer }}" name="radio_button" id="flexRadioDefault">
+        <div style="border: 2px solid black; padding: 10px; width: 660px; height: auto; overflow: auto; border-radius: 10px;        ">
+          <p>{{ question_text }}</p>
+        </div>
+        <div>
+          <br> <br>
+          <form method="post">
+          <input type="hidden" name="right_reponse" value="{{answer}}">
+            {% csrf_token %}
+            {% for options in options %}
+          <input class="form-check-input" type="radio" value="{{ options }}" name="radio_button" id="flexRadioDefault" required>
           <label class="form-check-label" for="flexRadioDefault1">
-<!--             on affiche donc c'est 2 accolades -->
-            {{ answer }}
+            {{ options }}
           </label>
           </div>
           <div>
           <br>
             {% endfor %} 
-
-
-
         <br><br>
         <div class="row">
           <br>
-          <div class="col-md-6 offset-md-3"></div> <br> <br> <br>
+          <div class="col-md-6 offset-md-3"></div> <br> 
           <button type="submit"  class="btn btn-dark"> Verifier la reponse</button>
         </div>
     <div class="col-3"></div>
           </form >
       <br><br><br>
-      <nav aria-label="Page navigation example">
-        <ul class="pagination justify-content-center">
-          <li class="page-item"><a class="page-link" href="quizz.html">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item"><a class="page-link" href="#">4</a></li>
-          <li class="page-item"><a class="page-link" href="#">5</a></li>
-          <li class="page-item"><a class="page-link" href="#">6</a></li>
-          <li class="page-item"><a class="page-link" href="#">7</a></li>
-          <li class="page-item"><a class="page-link" href="#">8</a></li>
-          <li class="page-item"><a class="page-link" href="#">9</a></li>
-          <li class="page-item"><a class="page-link" href="#">10</a></li>
-        </ul>
-      </nav>
         </div>
        
           {% endblock %}
